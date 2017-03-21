@@ -12,3 +12,6 @@
   
 ## 0.1.0 (2017-21-17)
   Using a dedicated gcode object parser library
+
+## 0.1.1 (2017-21-17)
+  Now pulling the gcode parser from an external library
