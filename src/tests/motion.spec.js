@@ -4,7 +4,7 @@ const LineByLineReader = require('line-by-line');
 const delay = require('bluebird').delay;
 const path = require('path');
 
-const MCE = require('../dist');
+const MCE = require('../');
 
 describe('Testing Motion Controller Emulator functionality', () => {
   const bot = new MCE();
@@ -330,7 +330,7 @@ describe('Testing Motion Controller Emulator functionality', () => {
     // The file provided is a 1mm cube, sliced for a Printrbot Play
 
     // declare the gcode file path
-    const filePath = path.join(process.env.PWD, 'tests/cube.gcode');
+    const filePath = path.join(__dirname, '../../cube.gcode');
     // instantiate the line reader
     const lr = new LineByLineReader(filePath);
 
