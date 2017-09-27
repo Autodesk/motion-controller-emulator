@@ -8,8 +8,10 @@ const gcodeToObject = require('gcode-json-converter').gcodeToObject;
 const commands = require('./commands');
 
 class MCE extends EventEmitter {
-  constructor() {
+  constructor(settings = {}) {
     super();
+
+    settings.realTime = settings.realTime || true;
 
     this.state = {
       open: false,

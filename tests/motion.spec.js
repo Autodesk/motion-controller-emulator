@@ -4,7 +4,7 @@ const LineByLineReader = require('line-by-line');
 const delay = require('bluebird').delay;
 const path = require('path');
 
-const MCE = require('../');
+const MCE = require('../dist');
 
 describe('Testing Motion Controller Emulator functionality', () => {
   const bot = new MCE();
