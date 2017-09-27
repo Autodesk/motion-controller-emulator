@@ -22,3 +22,7 @@
 ## 0.1.3 (2017-09-26)
   Added default object when constructing MCE object
   Building module for es5
+
+## 0.1.4 (2017-09-26)
+  Fixed bug for building async functions
+
