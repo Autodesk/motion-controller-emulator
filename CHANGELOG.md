@@ -18,3 +18,7 @@
 
 ## 0.1.2 (2017-03-29)
   Default to "ok" if the command is not supported
+
+## 0.1.3 (2017-09-26)
+  Added default object when constructing MCE object
+  Building module for es5
